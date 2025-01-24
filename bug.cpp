@@ -1,0 +1,1 @@
+std::vector<bool> is not implemented as a bitset, and thus has a significant performance overhead compared to a bitset for boolean operations.  This can be unexpected for those used to other languages where a boolean array might be represented as a bitset. For example, accessing elements will not be as efficient as with a `std::bitset`.
